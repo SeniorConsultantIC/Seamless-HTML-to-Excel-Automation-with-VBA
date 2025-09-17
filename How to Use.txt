@@ -1,0 +1,31 @@
+
+## How to Use
+
+1. Place all HTML files you want to import in `html_files/`.
+2. Open `VBA_HTML_Importer.xlsm`.
+3. Run the macros from buttons on the `Main` sheet:
+   - **Task Launcher:** Launch all tasks step by step.
+   - **Browse HTML Files:** Lists HTML files in the `Log` sheet.
+   - **Import HTML Tables:** Imports and cleans HTML data into `MasterData`.
+   - **Merge to Main Workbook:** Copies data to `Main Workbook.xlsx`.
+4. Processed HTML files will automatically move to `Processed_Files/` with a timestamped name.
+5. Check `MasterData` for combined data.
+
+## Notes
+
+- Ensure folder paths in the macros (`SOURCE_HTML`, `PROCESSED_FILES`, `MAIN_WORKBOOK`) are correct.
+- Make sure macros are enabled in Excel.
+- The project is designed for **Excel 2016+**.
+
+## Summary
+
+This project demonstrates an **end-to-end VBA automation workflow**:
+
+- File handling & folder validation
+- HTML table parsing
+- Excel data cleaning & formatting
+- Dynamic data merging
+- Logging and error handling
+
+showcasing my **Excel VBA automation skills**, **data processing**, and **workflow optimization**.
+

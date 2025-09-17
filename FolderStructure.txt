@@ -1,0 +1,15 @@
+Excel Automation Toolkit/
+│
+├─ README.md
+├─ Excel Automation Toolkit.xlsm        # Main Excel file containing all macros
+│
+├─ html_files/                   # Source folder for HTML files
+│    ├─ employee1.html
+│    ├─ employee2.html
+│    └─ ...
+│
+├─ html_files/Processed_Files/   # Folder where processed HTML files are moved
+│
+├─ All Data/                     # Folder containing main workbook
+│    └─ Main Workbook.xlsx       # Workbook to merge MasterData into
+│
